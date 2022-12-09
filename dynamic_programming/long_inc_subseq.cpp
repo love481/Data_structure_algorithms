@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-void find_longest_subsequences(vector<int>&data){
+void find_longest_increasing_subsequences(vector<int>&data){
     int arr[data.size()];
     for(int i=0;i<data.size();i++)
     {
@@ -20,6 +20,6 @@ void find_longest_subsequences(vector<int>&data){
 int main(void)
 {
     vector<int>data{6,2,5,1,7,8,9};
-    find_longest_subsequences(data);
+    find_longest_increasing_subsequences(data);
 
 }
